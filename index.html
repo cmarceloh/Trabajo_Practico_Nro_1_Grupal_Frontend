@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Equipo Dev - Proyecto Web</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          Grupo<span class="logo-accent">14</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html" class="active">Inicio</a></li>
+          <li><a href="bitacora.html">Bitácora</a></li>
+          <!-- Botón de Modo Oscuro -->
+          <li>
+            <button
+              id="toggle-dark-mode"
+              class="btn-dark-mode"
+              title="Cambiar tema"
+            >
+              🌓
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <!-- Nueva sección Hero a dos columnas -->
+      <section class="hero">
+        <div class="hero-content">
+          <h1 id="titulo-portada">Desarrollo de Sistemas Web</h1>
+          <p>
+            Construimos soluciones digitales eficientes y escalables a través
+            del trabajo colaborativo. Aplicamos las mejores prácticas de
+            maquetación y desarrollo front-end para crear experiencias web de
+            alta calidad.
+          </p>
+
+          <p class="hero-subtitle">
+            Conocé a los integrantes de nuestro equipo 👇
+          </p>
+        </div>
+        <div class="hero-image">
+          <!-- Agregá una imagen ilustrativa en tu carpeta img -->
+          <img
+            src="./img/hero-ilustration.png"
+            alt="Ilustración de Desarrollo Web"
+          />
+        </div>
+      </section>
+
+      <!-- Grilla de tarjetas (ahora siempre visible) -->
+      <section class="team-grid">
+        <div class="team-card">
+          <img src="./img/cmh.jpg" alt="Carlos" class="mini-avatar" />
+          <h3>Carlos Marcelo Hernandez</h3>
+          <a href="carlos.html" class="btn-secondary">Ir a mi tarjeta</a>
+        </div>
+
+        <div class="team-card">
+          <img src="./img/valeria-mini.jpg" alt="Valeria" class="mini-avatar" />
+          <h3>Valeria Noemi Fernandez</h3>
+          <a href="valeria.html" class="btn-secondary">Ir a mi tarjeta</a>
+        </div>
+
+        <div class="team-card">
+          <img src="./img/micaela-mini.jpg" alt="Micaela" class="mini-avatar" />
+          <h3>Micaela Laila Gargiulo</h3>
+          <a href="micaela.html" class="btn-secondary">Ir a mi tarjeta</a>
+        </div>
+
+        <div class="team-card">
+          <img src="./img/damaris-mini.jpg" alt="Damaris" class="mini-avatar" />
+          <h3>Damaris Rodriguez</h3>
+          <a href="damaris.html" class="btn-secondary">Ir a mi tarjeta</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>IFTS 29 - Tecnicatura Superior en Desarrollo de Software</p>
+      <p>Frontend 2026 | TP1 - Equipo 14</p>
+    </footer>
+  </body>
+</html>

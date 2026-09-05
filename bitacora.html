@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bitácora - Grupo 14</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <a href="index.html" class="logo">
+          Grupo<span class="logo-accent">14</span>
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="bitacora.html" class="active">Bitácora</a></li>
+          <!-- Botón de Modo Oscuro -->
+          <li>
+            <button
+              id="toggle-dark-mode"
+              class="btn-dark-mode"
+              title="Cambiar tema"
+            >
+              🌙
+            </button>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="bitacora-section">
+        <h1 class="page-title">Bitácora de Desarrollo</h1>
+        <p class="page-subtitle">
+          Registro del proceso, decisiones y aprendizajes de nuestro equipo
+          durante el TP1.
+        </p>
+
+        <div class="bitacora-entry">
+          <div class="entry-header">
+            <h3>Decisiones de Diseño y Organización</h3>
+            <span class="entry-date">Agosto 2026</span>
+          </div>
+          <p>
+            Optamos por un diseño de colores neutros y modernos, utilizando
+            tonos grafito combinados con verde azulado (teal). Nos organizamos
+            creando un repositorio central público en GitHub. Cada integrante
+            clonó el proyecto localmente para trabajar en su tarjeta y luego
+            hacer los respectivos <em>commits</em>, asegurando la participación
+            activa de todo el equipo en el historial.
+          </p>
+        </div>
+
+        <div class="bitacora-entry">
+          <div class="entry-header">
+            <h3>Dificultades Encontradas</h3>
+            <span class="entry-date">Agosto 2026</span>
+          </div>
+          <p>
+            Uno de los mayores desafíos iniciales fue comprender la estructura
+            de archivos en la raíz que pedía la consigna, ya que nuestra
+            intuición era agrupar los perfiles individuales en una carpeta
+            externa. Además, al aplicar el diseño adaptable, la distribución de
+            los elementos (como la grilla de tarjetas) debía cuidarse mediante
+            CSS para no desbordar en pantallas de celulares.
+          </p>
+        </div>
+
+        <div class="bitacora-entry">
+          <div class="entry-header">
+            <h3>Soluciones y Cambios Aplicados</h3>
+            <span class="entry-date">Agosto 2026</span>
+          </div>
+          <p>
+            Reestructuramos el directorio para dejar todos los HTML individuales
+            en la raíz, junto al index y la bitácora. Para solucionar la
+            navegación sin depender del botón "Atrás" del navegador,
+            implementamos un menú superior global. En cuanto al responsive,
+            agregamos Media Queries precisos en 400px, 900px y 1200px para el
+            diseño adaptativo.
+          </p>
+        </div>
+
+        <div class="bitacora-entry">
+          <div class="entry-header">
+            <h3>Interactividad y Experiencia de Usuario (UX)</h3>
+            <span class="entry-date">Agosto 2026</span>
+          </div>
+          <p>
+            Implementamos un sistema de
+            <strong>Modo Oscuro persistente</strong> utilizando JavaScript y
+            <code>localStorage</code>, permitiendo que la preferencia del
+            usuario se conserve al navegar de forma fluida entre la portada, la
+            bitácora y las tarjetas individuales. Asimismo, ajustamos la paleta
+            hacia tonos mate para evitar la fatiga visual, incorporamos una
+            ilustración vectorial interactiva con formas orgánicas y animaciones
+            CSS avanzadas en la portada, y rediseñamos el encabezado con un
+            logotipo interactivo para el Grupo 14.
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>IFTS 29 - Tecnicatura Superior en Desarrollo de Software</p>
+      <p>Frontend 2026 | TP1 - Equipo 14</p>
+    </footer>
+
+    <!-- Enlace al JS para que funcione la memoria del Modo Oscuro -->
+    <script src="js/main.js"></script>
+  </body>
+</html>

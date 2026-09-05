@@ -1,125 +1,123 @@
 <!doctype html>
 <html lang="es">
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Perfil - Valeria Noemi Fernandez</title>
     <link rel="stylesheet" href="css/styles.css" />
     <link
-            href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
-            rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&display=swap"
+      rel="stylesheet"
     />
-</head>
-<body>
-<!-- Menú de navegación idéntico -->
-<header>
-    <nav class="navbar">
+  </head>
+  <body>
+    <!-- Menú de navegación idéntico -->
+    <header>
+      <nav class="navbar">
         <a href="index.html" class="logo">
-            Grupo<span class="logo-accent">14</span>
+          Grupo<span class="logo-accent">14</span>
         </a>
         <ul class="nav-links">
-            <li><a href="index.html">Inicio</a></li>
-            <li><a href="bitacora.html">Bitácora</a></li>
-            <li>
-                <button
-                        id="toggle-dark-mode"
-                        class="btn-dark-mode"
-                        title="Cambiar tema"
-                >
-                    🌙
-                </button>
-            </li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="bitacora.html">Bitácora</a></li>
+          <li>
+            <button
+              id="toggle-dark-mode"
+              class="btn-dark-mode"
+              title="Cambiar tema"
+            >
+              🌙
+            </button>
+          </li>
         </ul>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<main class="container profile-container">
-    <a
-            href="index.html"
-            class="btn-secondary"
-            style="display: inline-block; margin-bottom: 1.5rem"
-    >⬅ Volver atrás</a
-    >
+    <main class="container profile-container">
+      <a
+        href="index.html"
+        class="btn-secondary"
+        style="display: inline-block; margin-bottom: 1.5rem"
+        >⬅ Volver atrás</a
+      >
 
-    <div class="profile-card">
+      <div class="profile-card">
         <!-- Valeria debe poner su foto en la carpeta img y ajustar el nombre acá -->
         <img
-                src="./img/valeria.jpg"
-                alt="Avatar de Valeria"
-                class="avatar"
-                id="avatar-valeria"
+          src="./img/valeria.jpg"
+          alt="Avatar de Valeria"
+          class="avatar"
+          id="avatar-valeria"
         />
         <h2>Valeria Noemi Fernandez</h2>
         <p class="location">[Ciudad, Provincia] | Edad: [Tu Edad]</p>
         <a
-                href="https://github.com/tu-usuario"
-                class="btn-primary btn-github"
-                target="_blank"
-        >Mi GitHub</a
+          href="https://github.com/tu-usuario"
+          class="btn-primary btn-github"
+          target="_blank"
+          >Mi GitHub</a
         >
 
         <div class="profile-details">
-            <div class="skills box-section">
-                <h3>Habilidades Técnicas</h3>
-                <ul>
-                    <li>[Habilidad 1]</li>
-                    <li>[Habilidad 2]</li>
-                    <li>[Habilidad 3]</li>
-                    <li>[Habilidad 4]</li>
-                </ul>
+          <div class="skills box-section">
+            <h3>Habilidades Técnicas</h3>
+            <ul>
+              <li>[Habilidad 1]</li>
+              <li>[Habilidad 2]</li>
+              <li>[Habilidad 3]</li>
+              <li>[Habilidad 4]</li>
+            </ul>
+          </div>
+
+          <div class="favorites box-section">
+            <h3>Favoritos</h3>
+
+            <!-- Películas -->
+            <div class="media-category">
+              <h4>Películas</h4>
+              <div class="media-grid peliculas">
+                <div class="media-item">
+                  <img src="./img/valeria-peli1.jpg" alt="Película 1" />
+                  <span>[Título Peli 1]</span>
+                </div>
+                <div class="media-item">
+                  <img src="./img/valeria-peli2.jpg" alt="Película 2" />
+                  <span>[Título Peli 2]</span>
+                </div>
+                <div class="media-item">
+                  <img src="./img/valeria-peli3.jpg" alt="Película 3" />
+                  <span>[Título Peli 3]</span>
+                </div>
+              </div>
             </div>
 
-            <div class="favorites box-section">
-                <h3>Favoritos</h3>
-
-                <!-- Películas -->
-                <div class="media-category">
-                    <h4>Películas</h4>
-                    <div class="media-grid peliculas">
-                        <div class="media-item">
-                            <img src="./img/valeria-peli1.jpg" alt="Película 1" />
-                            <span>[Título Peli 1]</span>
-                        </div>
-                        <div class="media-item">
-                            <img src="./img/valeria-peli2.jpg" alt="Película 2" />
-                            <span>[Título Peli 2]</span>
-                        </div>
-                        <div class="media-item">
-                            <img src="./img/valeria-peli3.jpg" alt="Película 3" />
-                            <span>[Título Peli 3]</span>
-                        </div>
-                    </div>
+            <!-- Discos -->
+            <div class="media-category">
+              <h4>Discos</h4>
+              <div class="media-grid discos">
+                <div class="media-item">
+                  <img src="./img/valeria-disco1.jpg" alt="Disco 1" />
+                  <span>[Título Disco 1]</span>
                 </div>
-
-                <!-- Discos -->
-                <div class="media-category">
-                    <h4>Discos</h4>
-                    <div class="media-grid discos">
-                        <div class="media-item">
-                            <img src="./img/valeria-disco1.jpg" alt="Disco 1" />
-                            <span>[Título Disco 1]</span>
-                        </div>
-                        <div class="media-item">
-                            <img src="./img/valeria-disco2.jpg" alt="Disco 2" />
-                            <span>[Título Disco 2]</span>
-                        </div>
-                        <div class="media-item">
-                            <img src="./img/valeria-disco3.jpg" alt="Disco 3" />
-                            <span>[Título Disco 3]</span>
-                        </div>
-                    </div>
+                <div class="media-item">
+                  <img src="./img/valeria-disco2.jpg" alt="Disco 2" />
+                  <span>[Título Disco 2]</span>
                 </div>
+                <div class="media-item">
+                  <img src="./img/valeria-disco3.jpg" alt="Disco 3" />
+                  <span>[Título Disco 3]</span>
+                </div>
+              </div>
             </div>
+          </div>
         </div>
-    </div>
-</main>
+      </div>
+    </main>
 
-<footer class="footer">
-    <p>IFTS 29 - Tecnicatura Superior en Desarrollo de Software</p>
-    <p>Frontend 2026 | TP1 - Equipo 14</p>
-</footer>
-
-
-</body>
+    <footer class="footer">
+      <p>IFTS 29 - Tecnicatura Superior en Desarrollo de Software</p>
+      <p>Frontend 2026 | TP1 - Equipo 14</p>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
 </html>
-

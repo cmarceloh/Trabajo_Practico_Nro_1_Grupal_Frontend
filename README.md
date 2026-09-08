@@ -12,12 +12,12 @@
 
 ## 👥 Integrantes del Equipo
 
-| Integrante | Perfil individual |
-|---|---|
-| Carlos Marcelo Hernandez | [`carlos.html`](carlos.html) |
-| Valeria Noemi Fernandez | [`valeria.html`](valeria.html) |
-| Micaela Laila Gargiulo | [`micaela.html`](micaela.html) |
-| Dámaris Rodriguez | [`damaris.html`](damaris.html) |
+| Integrante               | Perfil individual              |
+| ------------------------ | ------------------------------ |
+| Carlos Marcelo Hernandez | [`carlos.html`](carlos.html)   |
+| Valeria Noemi Fernandez  | [`valeria.html`](valeria.html) |
+| Micaela Laila Gargiulo   | [`micaela.html`](micaela.html) |
+| Dámaris Rodriguez        | [`damaris.html`](damaris.html) |
 
 ---
 
@@ -35,14 +35,14 @@ El sitio consiste en una **página principal** (`index.html`) que presenta al eq
 
 ## 🛠️ Tecnologías Utilizadas
 
-| Tecnología | Uso en el proyecto |
-|---|---|
-| **HTML5** | Estructura semántica de todas las páginas (`<header>`, `<main>`, `<nav>`, `<section>`, `<footer>`) |
-| **CSS3** | Estilos visuales, layout con Grid y Flexbox, variables CSS (custom properties), animaciones y transiciones |
-| **JavaScript** | Lógica de interactividad: modo oscuro persistente con `localStorage` |
-| **Google Fonts** | Tipografía _Inter_ (pesos 300, 400 y 600) importada desde CDN |
-| **Git / GitHub** | Control de versiones y trabajo colaborativo |
-| **Vercel** | Hosting y deploy del sitio |
+| Tecnología       | Uso en el proyecto                                                                                         |
+| ---------------- | ---------------------------------------------------------------------------------------------------------- |
+| **HTML5**        | Estructura semántica de todas las páginas (`<header>`, `<main>`, `<nav>`, `<section>`, `<footer>`)         |
+| **CSS3**         | Estilos visuales, layout con Grid y Flexbox, variables CSS (custom properties), animaciones y transiciones |
+| **JavaScript**   | Lógica de interactividad: modo oscuro persistente con `localStorage`                                       |
+| **Google Fonts** | Tipografía _Inter_ (pesos 300, 400 y 600) importada desde CDN                                              |
+| **Git / GitHub** | Control de versiones y trabajo colaborativo                                                                |
+| **Vercel**       | Hosting y deploy del sitio                                                                                 |
 
 ---
 
@@ -52,15 +52,15 @@ El sitio consiste en una **página principal** (`index.html`) que presenta al eq
 
 El sitio utiliza **CSS Custom Properties** (`:root`) para manejar dos paletas completas (clara y oscura) de forma centralizada:
 
-| Variable | Modo Claro | Modo Oscuro | Uso |
-|---|---|---|---|
-| `--bg` | `#f4f3ef` | `#111513` | Fondo general |
-| `--surface` | `#ffffff` | `#191d1b` | Tarjetas y contenedores |
-| `--surface-2` | `#ecebe6` | `#222824` | Fondos secundarios |
-| `--text` | `#202321` | `#f0f0ea` | Texto principal |
-| `--muted` | `#70746f` | `#a5aaa6` | Texto secundario |
-| `--accent` | `#168276` | `#43b8aa` | Acentos (verde azulado / teal) |
-| `--nav` | `#202522` | `#0b0e0d` | Fondo del navbar y footer |
+| Variable      | Modo Claro | Modo Oscuro | Uso                            |
+| ------------- | ---------- | ----------- | ------------------------------ |
+| `--bg`        | `#f4f3ef`  | `#111513`   | Fondo general                  |
+| `--surface`   | `#ffffff`  | `#191d1b`   | Tarjetas y contenedores        |
+| `--surface-2` | `#ecebe6`  | `#222824`   | Fondos secundarios             |
+| `--text`      | `#202321`  | `#f0f0ea`   | Texto principal                |
+| `--muted`     | `#70746f`  | `#a5aaa6`   | Texto secundario               |
+| `--accent`    | `#168276`  | `#43b8aa`   | Acentos (verde azulado / teal) |
+| `--nav`       | `#202522`  | `#0b0e0d`   | Fondo del navbar y footer      |
 
 ### Layout y Responsive
 
@@ -113,15 +113,19 @@ toggleDarkModeBtn.addEventListener("click", () => {
 ## 📸 Capturas de Pantalla
 
 ### Portada — Modo Claro
+
 ![Portada modo claro](./img/capturas/portada-claro.png)
 
 ### Portada — Modo Oscuro
+
 ![Portada modo oscuro](./img/capturas/portada-oscuro.png)
 
 ### Perfil Individual
+
 ![Perfil individual](./img/capturas/perfil.png)
 
 ### Vista Mobile (responsive)
+
 ![Vista mobile](./img/capturas/mobile.png)
 
 ---
@@ -155,10 +159,10 @@ toggleDarkModeBtn.addEventListener("click", () => {
 
 ### Herramientas utilizadas
 
-| Herramienta | Modelo / Plan | Tipo de plan |
-|---|---|---|
-| **ChatGPT** | GPT (plan Go) | 💳 Pago |
-| **Claude** | Claude (versión gratuita) | 🆓 Gratuito |
+| Herramienta | Modelo / Plan             | Tipo de plan |
+| ----------- | ------------------------- | ------------ |
+| **ChatGPT** | GPT (plan Go)             | 💳 Pago      |
+| **Claude**  | Claude (versión gratuita) | 🆓 Gratuito  |
 
 ### Experiencia previa del equipo
 
@@ -166,10 +170,10 @@ Contamos con conocimientos previos en HTML, CSS y JavaScript adquiridos durante 
 
 ### ¿Qué asistió la IA?
 
-| Área | Herramienta | Descripción |
-|---|---|---|
+| Área                             | Herramienta                      | Descripción                                                                                                                                                                                                                                                                                                                           |
+| -------------------------------- | -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CSS — Diseño visual y layout** | ChatGPT (Go) y Claude (gratuito) | Utilizamos ambas herramientas como asistentes para la construcción de la hoja de estilos. Les describimos la estética que buscábamos (tonos neutros, paleta mate, estilo moderno y limpio) y nos generaron propuestas de CSS que incluían la estructura Grid, las variables de colores, las transiciones y el sistema de modo oscuro. |
-| **Formato del README** | ChatGPT (Go) y Claude (gratuito) | Usamos la IA para dar formato y estructura a este documento README, asegurándonos de que cumpliera con buenas prácticas de documentación en Markdown. |
+| **Formato del README**           | ChatGPT (Go) y Claude (gratuito) | Usamos la IA para dar formato y estructura a este documento README, asegurándonos de que cumpliera con buenas prácticas de documentación en Markdown.                                                                                                                                                                                 |
 
 ### ¿Qué NO fue generado por IA?
 
